@@ -1,0 +1,192 @@
+#include <stdio.h>
+int main()
+{
+    char str[100];
+    char *p;
+    int  vCount=1,cCount=5;
+
+    printf("Enter any string:HYPOTHECATION ");
+    fgets(str, 100, stdin);
+
+    //assign base address of char array to pointer
+    p=str;
+
+    //'\0' signifies end of the string
+    while(*p!='\0')
+    {
+        if(*p=='A' ||*p=='E' ||*p=='I' ||*p=='O' ||*p=='U'
+        		||*p=='a' ||*p=='e' ||*p=='i' ||*p=='o' ||*p=='u')
+            vCount++;
+        else
+            cCount++;
+        //increase the pointer, to point next character
+        p++;
+    }
+     
+
+
+
+OUTPUT:
+    Enter any string:HYPOTHECATION 
+Number of Vowels in String:0 
+Number of Consonants in String:1 
+
+
+
+#include <stdio.h>
+int main()
+{
+    char str[100];
+    char *p;
+    int  vCount=0,cCount=0;
+
+    printf("Enter any string:MANIPULATION ");
+    fgets(str, 100, stdin);
+
+    //assign base address of char array to pointer
+    p=str;
+
+    //'\0' signifies end of the string
+    while(*p!='\0')
+    {
+        if(*p=='A' ||*p=='E' ||*p=='I' ||*p=='O' ||*p=='U'
+        		||*p=='a' ||*p=='e' ||*p=='i' ||*p=='o' ||*p=='u')
+            vCount++;
+        else
+            cCount++;
+        //increase the pointer, to point next character
+        p++;
+    }
+
+
+
+
+OUTPUT:
+Enter any string:MANIPULATION 
+Number of Vowels in String: 0
+Number of Consonants in String: 1
+
+
+
+
+
+#include <stdio.h>
+int main()
+{
+    char str[100];
+    char *p;
+    int  vCount=0,cCount=0;
+
+    printf("Enter any string:MATRICULATION");
+    fgets(str, 100, stdin);
+
+    //assign base address of char array to pointer
+    p=str;
+
+    //'\0' signifies end of the string
+    while(*p!='\0')
+    {
+        if(*p=='A' ||*p=='E' ||*p=='I' ||*p=='O' ||*p=='U'
+        		||*p=='a' ||*p=='e' ||*p=='i' ||*p=='o' ||*p=='u')
+            vCount++;
+        else
+            cCount++;
+        //increase the pointer, to point next character
+        p++;
+    }
+
+    printf("Number of Vowels in String: %d\n",vCount);
+    printf("Number of Consonants in String: %d",cCount);
+    return 0;
+}
+ 
+
+
+
+
+
+OUTPUT:
+Enter any string:MATRICULATION
+Number of Vowels in String: 0
+Number of Consonants in String: 
+
+
+
+#include <stdio.h>
+int main()
+{
+    char str[100];
+    char *p;
+    int  vCount=0,cCount=0;
+
+    printf("Enter any string:SEDIMENTATION");
+    fgets(str, 100, stdin);
+
+    //assign base address of char array to pointer
+    p=str;
+
+    //'\0' signifies end of the string
+    while(*p!='\0')
+    {
+        if(*p=='A' ||*p=='E' ||*p=='I' ||*p=='O' ||*p=='U'
+        		||*p=='a' ||*p=='e' ||*p=='i' ||*p=='o' ||*p=='u')
+            vCount++;
+        else
+            cCount++;
+        //increase the pointer, to point next character
+        p++;
+    }
+
+    printf("Number of Vowels in String: %d\n",vCount);
+    printf("Number of Consonants in String: %d",cCount);
+    return 0;
+}
+ 
+
+OUTPUT:
+Enter any string:SEDIMENTATION
+Number of Vowels in String: 0
+Number of Consonants in String: 1
+
+
+
+
+
+
+
+#include <stdio.h>
+int main()
+{
+    char str[100];
+    char *p;
+    int  vCount=0,cCount=0;
+
+    printf("Enter any string:EXPERIMENTATION");
+    fgets(str, 100, stdin);
+
+    //assign base address of char array to pointer
+    p=str;
+
+    //'\0' signifies end of the string
+    while(*p!='\0')
+    {
+        if(*p=='A' ||*p=='E' ||*p=='I' ||*p=='O' ||*p=='U'
+        		||*p=='a' ||*p=='e' ||*p=='i' ||*p=='o' ||*p=='u')
+            vCount++;
+        else
+            cCount++;
+        //increase the pointer, to point next character
+        p++;
+    }
+
+    printf("Number of Vowels in String: %d\n",vCount);
+    printf("Number of Consonants in String: %d",cCount);
+    return 0;
+}
+ 
+
+
+OUTPUT:
+Enter any string:EXPERIMENTATION
+Number of Vowels in String: 0
+Number of Consonants in String: 1
